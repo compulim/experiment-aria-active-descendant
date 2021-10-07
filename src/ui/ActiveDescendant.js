@@ -12,8 +12,10 @@ const LIST_ITEMS = {
   'id-4': (
     <>
       An authorised sequel{' '}
-      <a href="https://en.wikipedia.org/wiki/Return_to_the_Hundred_Acre_Wood">Return to the Hundred Acre Wood</a> was
-      published on 5 October 2009
+      <a href="https://en.wikipedia.org/wiki/Return_to_the_Hundred_Acre_Wood" rel="noopener noreferrer" target="_blank">
+        Return to the Hundred Acre Wood
+      </a>{' '}
+      was published on 5 October 2009
     </>
   )
 };

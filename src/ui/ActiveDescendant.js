@@ -80,7 +80,7 @@ const ActiveDescendant = forwardRef((_, ref) => {
             className={classNames('active-descendant__item', {
               'active-descendant__item--active': key === activeKey
             })}
-            id={key === activeKey ? activeDescendantId : ''}
+            id={key === activeKey ? activeDescendantId : undefined}
             key={key}
           >
             {value}

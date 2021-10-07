@@ -20,7 +20,7 @@ function App() {
       <h1>Steps</h1>
       <ol>
         <li>Start screen reader</li>
-        <li>Disable scan mode</li>
+        <li>On Windows: Disable scan mode by pressing <kbd>CAPS</kbd> + <kbd>SPACE</kbd> (higher pitch sound in NVDA indicate scan mode is disabled)</li>
         <li>
           Press <kbd>TAB</kbd> to focus to the list below
         </li>
@@ -38,13 +38,41 @@ function App() {
         <li>
           Edge + Windows Narrator
           <ul>
-            <li>Did not narrate "Return to the Hundred Acre Wood". Seems like a browser bug.</li>
+            <li>✔️ Do narrate content on arrow keys.</li>
+            <li>❌ Do not narrate "Return to the Hundred Acre Wood". Seems like a browser bug.</li>
           </ul>
         </li>
-        <li>Chrome + NVDA:</li>
-        <li>Firefox + NVDA:</li>
-        <li>Safari (macOS) + VoiceOver:</li>
-        <li>Safari (iPadOS) + VoiceOver:</li>
+        <li>
+          Chrome + NVDA:
+          <ul>
+            <li>❌ Do not narrate content on arrow keys.</li>
+            <li>❌ Do not narrate "Return to the Hundred Acre Wood". Seems like a browser bug.</li>
+          </ul>
+        </li>
+        <li>
+          Firefox + NVDA:
+          <ul>
+            <li>✔️ Do narrate content on arrow keys.</li>
+            <li>✔️ Do narrate "Return to the Hundred Acre Wood". Seems like a browser bug.</li>
+            <li>❌ Do not narrate "link" (accessible name) for "Return to the Hundred Acre Wood".</li>
+          </ul>
+        </li>
+        <li>
+          Safari (macOS) + VoiceOver:
+          <ul>
+            <li>✔️ Do narrate SOME content on arrow keys: "An authorised sequel and 2 more items."</li>
+            <li>
+              ✔️ Do narrate "link" (accessible name) when pressing <kbd>CAPS</kbd> + <kbd>RIGHT</kbd>: "link, Return to the Hundred Acre Wood".
+            </li>
+          </ul>
+        </li>
+        <li>
+          Safari (iPadOS) + VoiceOver:
+          <ul>
+            <li>✔️ Do narrate content on two-finger swipe down.</li>
+            <li>✔️ Do narrate "link" (accessible name): "... sequel Return to the Hundred Acre Wood, link, was ..."</li>
+          </ul>
+        </li>
       </ul>
     </div>
   );

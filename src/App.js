@@ -86,10 +86,17 @@ function App() {
           </ul>
         </li>
         <li>
-          Safari (iPadOS) + VoiceOver:
+          Safari (iPadOS 15) + VoiceOver:
           <ul>
             <li>✔️ Do narrate content on two-finger swipe down.</li>
             <li>✔️ Do narrate "link" (accessible name): "... sequel Return to the Hundred Acre Wood, link, was ..."</li>
+          </ul>
+        </li>
+        <li>
+          Android 12 + TalkBack:
+          <ul>
+            <li>✔️ Do narrate content one-by-one on one-finger swipe down.</li>
+            <li>✔️ Do narrate "link" (accessible name): "... sequel", "Return to the Hundred Acre Wood, link", "was ..."</li>
           </ul>
         </li>
       </ul>

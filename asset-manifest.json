@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/experiment-aria-active-descendant/static/css/main.ca3cff28.chunk.css",
-    "main.js": "/experiment-aria-active-descendant/static/js/main.ce502930.chunk.js",
-    "main.js.map": "/experiment-aria-active-descendant/static/js/main.ce502930.chunk.js.map",
+    "main.css": "/experiment-aria-active-descendant/static/css/main.8d215949.chunk.css",
+    "main.js": "/experiment-aria-active-descendant/static/js/main.42fac7ac.chunk.js",
+    "main.js.map": "/experiment-aria-active-descendant/static/js/main.42fac7ac.chunk.js.map",
     "runtime-main.js": "/experiment-aria-active-descendant/static/js/runtime-main.fa48a965.js",
     "runtime-main.js.map": "/experiment-aria-active-descendant/static/js/runtime-main.fa48a965.js.map",
     "static/js/2.2293885c.chunk.js": "/experiment-aria-active-descendant/static/js/2.2293885c.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.bd85c30f.chunk.js": "/experiment-aria-active-descendant/static/js/3.bd85c30f.chunk.js",
     "static/js/3.bd85c30f.chunk.js.map": "/experiment-aria-active-descendant/static/js/3.bd85c30f.chunk.js.map",
     "index.html": "/experiment-aria-active-descendant/index.html",
-    "static/css/main.ca3cff28.chunk.css.map": "/experiment-aria-active-descendant/static/css/main.ca3cff28.chunk.css.map",
+    "static/css/main.8d215949.chunk.css.map": "/experiment-aria-active-descendant/static/css/main.8d215949.chunk.css.map",
     "static/js/2.2293885c.chunk.js.LICENSE.txt": "/experiment-aria-active-descendant/static/js/2.2293885c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fa48a965.js",
     "static/js/2.2293885c.chunk.js",
-    "static/css/main.ca3cff28.chunk.css",
-    "static/js/main.ce502930.chunk.js"
+    "static/css/main.8d215949.chunk.css",
+    "static/js/main.42fac7ac.chunk.js"
   ]
 }

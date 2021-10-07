@@ -12,7 +12,7 @@ function App() {
       <h1>Background</h1>
       <p>
         We are using{' '}
-        <a href="https://www.w3.org/TR/wai-aria/#aria-activedescendant">
+        <a href="https://www.w3.org/TR/wai-aria/#aria-activedescendant" rel="noopener noreferrer" target="_blank">
           <code>aria-activedescendant</code>
         </a>{' '}
         to drive the navigation pattern.
@@ -36,7 +36,8 @@ function App() {
         </li>
       </ol>
       <p>
-        <strong>EXPECT</strong>: When using arrow keys to navigate, screen reader should read each of the list item correctly.
+        <strong>EXPECT</strong>: When using arrow keys to navigate, screen reader should read each of the list item
+        correctly.
       </p>
       <h1>Try this out</h1>
       <ActiveDescendant ref={activeDescendantRef} />
